@@ -27,7 +27,7 @@ const BarChartPay = ({ data, keys, colors }) => {
       dimensions || wrapperRef.current.getBoundingClientRect();
 
     // stacks/layers
-    const stackGenerator = stack().keys(keys).order(stackOrderDescending);
+    const stackGenerator = stack().keys(keys).order(stackOrderAscending);
     const layers = stackGenerator(data);
     const extent = [
       0,
@@ -119,22 +119,26 @@ const BarChartPay = ({ data, keys, colors }) => {
 
     svg
       .select(".y-axis")
+      .attr("class", "axis")
       // .attr("transform", `translate(0, ${height})`)
       .call(yAxis);
 
     svg
       .select(".x-axis")
+      .attr("class", "axis")
       .call(xAxis)
       .attr("transform", `translate(0, ${height})`);
   }, [colors, data, dimensions, keys]);
 
   return (
-    <div ref={wrapperRef} id="my_dataviz2">
+    <>
+    <div ref={wrapperRef} id="my_dataviz2" >
       <svg ref={svgRef} >
         <g className="x-axis"></g>
         <g className="y-axis"></g>
       </svg>
     </div>
+    </>
   );
 };
 
