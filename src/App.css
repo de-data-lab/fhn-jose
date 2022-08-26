@@ -18,5 +18,13 @@ svg {
 } */
 
 body {
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(198, 198, 198);
+}
+
+.chart-container {
+  margin: 0px 300px 0px 300px;
+}
+
+.axis {
+  font: 14px sans-serif;
 }
