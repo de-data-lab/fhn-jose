@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/de-data-lab/fhn-jose/static/css/main.dc30786f.css",
+    "main.js": "/de-data-lab/fhn-jose/static/js/main.ed77fc3e.js",
+    "static/js/787.dee91cf4.chunk.js": "/de-data-lab/fhn-jose/static/js/787.dee91cf4.chunk.js",
+    "static/media/amanda.jpeg": "/de-data-lab/fhn-jose/static/media/amanda.f74e3007971de180783c.jpeg",
+    "static/media/sharita.jpeg": "/de-data-lab/fhn-jose/static/media/sharita.797c50cc534c1ec7a54e.jpeg",
+    "static/media/logo.svg": "/de-data-lab/fhn-jose/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/de-data-lab/fhn-jose/index.html",
+    "static/media/36rework.csv": "/de-data-lab/fhn-jose/static/media/36rework.4fcd772ea585693add6b.csv",
+    "static/media/39rework.csv": "/de-data-lab/fhn-jose/static/media/39rework.fb0492bc02936ae2b662.csv",
+    "main.dc30786f.css.map": "/de-data-lab/fhn-jose/static/css/main.dc30786f.css.map",
+    "main.ed77fc3e.js.map": "/de-data-lab/fhn-jose/static/js/main.ed77fc3e.js.map",
+    "787.dee91cf4.chunk.js.map": "/de-data-lab/fhn-jose/static/js/787.dee91cf4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc30786f.css",
+    "static/js/main.ed77fc3e.js"
+  ]
+}
